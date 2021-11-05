@@ -1,13 +1,11 @@
 #include<math.h>
 #include <stdio.h>
-#define isArmStrong()
-#define isPalindrome()
 
 int isArmStrong(int n){
     int temp = n;
     int ans = 0;
     int mult = 1;
-    int digit = 0;
+    int digit = 0,i;
     while(temp>0){
         digit++;
         temp=temp/10;
