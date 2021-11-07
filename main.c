@@ -4,11 +4,11 @@
 
 int main(){
     int num1, num2, i;
-    printf("Enter the First Number:");
+
     scanf("%d",&num1);
     
 
-    printf("Enter The Second Number:");
+
     scanf("%d",&num2);
 
 
