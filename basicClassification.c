@@ -2,6 +2,9 @@
 #include <math.h>
 
 int isPrime(int n){
+    if(n==1){
+        return 1;
+    }
     int i;
     for(i=2; i< n; i++){
         if(n%i == 0)
